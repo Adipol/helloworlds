@@ -1,14 +1,13 @@
 <template>
-  <h1>Listado de posts</h1>
-  <PostContainer />
+  <ModelForm />
 </template>
 
 <script lang="ts" setup>
-import PostContainer from './components/PostContainer.vue'
+import ModelForm from "./components/ModelForm.vue";
 </script>
 
 <style>
-  h1{
-  color:#008055
-  }
+h1 {
+  color: #008055;
+}
 </style>
